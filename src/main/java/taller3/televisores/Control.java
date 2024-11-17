@@ -44,7 +44,7 @@ public class Control {
     //Metodos para volumen 
     public void setVolumen(int volumen){
         if (this.tv.estado){
-            if (this.tv.volumen >= 0 && this.tv.volumen <=7){
+            if (volumen >= 0 && volumen <=7){
                 this.tv.volumen=volumen;
             }
         }
